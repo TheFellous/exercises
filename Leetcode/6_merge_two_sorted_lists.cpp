@@ -1,4 +1,4 @@
-//https://leetcode.com/problems/reverse-linked-list/description/?envType=study-plan&id=level-1
+//https://leetcode.com/problems/merge-two-sorted-lists/?envType=study-plan&id=level-1
 // 24/02/23
 #include <iostream>
 
