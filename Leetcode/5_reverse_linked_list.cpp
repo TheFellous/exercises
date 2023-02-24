@@ -22,10 +22,10 @@ public:
         if(current->next == nullptr)
             new_head = current; 
 
-        ListNode *foreward = current->next;         
+        ListNode *forward = current->next;         
         current->next = backward;
         backward = current; 
-        current = foreward;
+        current = forward;
         
     }
     return new_head; 
