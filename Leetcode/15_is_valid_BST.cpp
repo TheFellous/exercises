@@ -1,4 +1,4 @@
-// https://leetcode.com/problems/validate-binary-search-tree/submissions/907340359/?envType=study-plan&id=level-1
+// https://leetcode.com/problems/validate-binary-search-tree/description/?envType=study-plan&id=level-1
 // 01/03/23
  #include <iostream>
  #include <vector>
