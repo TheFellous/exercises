@@ -1,3 +1,5 @@
+// https://leetcode.com/problems/longest-common-prefix/
+// 09/03/23
 #include <bits/stdc++.h>
 
 class Solution {
