@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/majority-element/
+// 21/03/23
 #include <bits/stdc++.h>
 
 class Solution {
