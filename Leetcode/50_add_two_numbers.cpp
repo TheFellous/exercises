@@ -1,5 +1,5 @@
-// https://leetcode.com/problems/add-two-numbers/description/
-// 23/03/23 
+// https://leetcode.com/problems/add-two-numbers/description/ 
+//  23/03/23 
 #include <bits/stdc++.h>
 
 struct ListNode {
@@ -15,9 +15,9 @@ public:
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2)
     {
         ListNode* sum = new ListNode();
-        bool cout = true; 
         ListNode* head = sum; 
         ListNode* aux = nullptr;
+        bool cout = true; 
         while(l1 && l2)
         {
             sum->next = new ListNode();
