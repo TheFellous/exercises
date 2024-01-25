@@ -18,7 +18,7 @@ int main() {
 
     return 0;
     */
-   for(int i = 0; i < 5; i++)
+/*   for(int i = 0; i < 5; i++)
    {
         std::string test; 
         std::cout << "Teste: " << test; 
@@ -26,4 +26,28 @@ int main() {
             test += 'i'; 
 
    }
+   */
+    int x = 10;
+
+    // Referencing: Create a reference to x
+    int& ref = x;
+    std::cout << "Value of x: " << x << std::endl;
+    std::cout << "Value of ref: " << ref << std::endl;
+
+    // Change the value of x through the reference
+    ref = 20;
+    std::cout << "Value of x: " << x << std::endl;
+    std::cout << "Value of ref: " << ref << std::endl;
+
+    // Pointer and Dereferencing
+    int* ptr = &x; // ptr now holds the address of x
+    std::cout << "Address of x: " << &x << std::endl;
+    std::cout << "Value of ptr: " << ptr << std::endl;
+
+    // Dereferencing: Get the value at the address ptr is pointing to
+    int val = *ptr;
+    std::cout << "Value of val: " << val << std::endl;
+
+    return 0;
 }
+
